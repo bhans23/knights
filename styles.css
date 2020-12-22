@@ -1,0 +1,137 @@
+html {
+  height: 100vh;
+}
+
+
+body {
+  
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+ 
+  /* height: 100%; */
+  background-image: linear-gradient(to bottom right,rgb(32, 10, 48,.2), rgba(32, 10, 48,1));
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+.body{
+  
+  /* height:100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius:15px 15px 15px 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0;
+  
+}
+.box{
+  
+  border-radius:15px 15px 0px 0px;
+  width: 320px;
+  height: 320px;
+  background-image: url(knights.jpg);
+  background-size: contain;
+  
+}
+.songInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width:320px;
+  height: 77px;
+  background-color: rgb(68, 64, 64);
+}
+.service{
+  background-color: white;
+  width:320px;
+  height: 70px;
+  border-top-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lastService{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  border-radius:0px 0px 15px 15px ;
+  width: 320px;
+  height: 77px;
+  background-color: white;
+  
+}
+.songInfoText{
+  margin:5px;
+  color: white;
+}
+
+.button {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 50px;
+  width:100px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: white;
+  color: black;
+  border: 1px solid #555555;
+  margin:15px;
+  border-radius:5px 60px 60px 5px ;
+  font-size: 15pt;
+  text-decoration: none;
+ 
+
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.youtube{
+  height:40px;
+  width:160px;
+  background-image: url(youtube.png);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+}
+.spotify{
+  height:40px;
+  width:160px;
+  background-image: url(spotify.png);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+}
+
+.apple{
+  height:40px;
+  width:160px;
+  background-image: url(appleMusic.png);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+}
+
+.amazon{
+  height:40px;
+  width:160px;
+  background-image: url(amazon.png);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+}
+
